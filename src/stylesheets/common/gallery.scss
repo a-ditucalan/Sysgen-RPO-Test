@@ -1,0 +1,55 @@
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.photo-wrapper {
+  position: relative;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+  .img-content{
+    width: 350px;
+    height: 300px;
+
+    object-fit: cover;
+  }
+
+  .photo-name {
+    margin-bottom: 2px;
+
+    font-weight: 700;
+  }
+
+
+}
+
+.load-more-wrapper {
+  text-align: center;
+
+  button {
+    font-size: 25px;
+
+    border: none;
+
+    background: none;
+  }
+}
+
+.Toastify__toast-body {
+  text-align: center;
+}
+
+.check {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  width: 25px;
+  height: 25px;
+}
+
+.unselected-delete {
+  opacity: .5;
+}

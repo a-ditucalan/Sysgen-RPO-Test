@@ -1,0 +1,83 @@
+.icon-img {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+.btn-upload {
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: none;
+}
+
+.hr {
+  margin: 0 5px 0 12px;
+  width: 2px;
+  height: 60%;
+
+  background-color: black;
+}
+
+.react-responsive-modal-modal {
+  width: 800px;
+}
+
+.drag-upload {
+  padding: 40px 23px;
+
+  text-align: center;
+
+  border: 1px dashed grey;
+}
+
+.modal-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+
+  .img-item {
+    margin-right: 10px;
+    height: 100px;
+  }
+}
+
+.upload-bottom-wrapper {
+  display: flex;
+
+  justify-content: space-between;
+
+}
+.btn-upload-bottom {
+  display: flex;
+  align-items: center;
+
+  border: none;
+
+  background: transparent;
+  img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.disableBtn {
+  opacity: .5;
+}
+
+.title-modal {
+  margin-bottom: 25px;
+
+  font-size: 30px;
+}
+
+.react-responsive-modal-closeButton {
+  top: 25px;
+}
